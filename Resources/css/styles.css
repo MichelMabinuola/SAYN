@@ -92,6 +92,7 @@ body,
     left: 0;
     height: 40%;
     text-align: left;
+    display: none;
 }
 
 .medium--box article h2 {
