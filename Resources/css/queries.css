@@ -1,0 +1,860 @@
+/*******************************MEDIA QUERIES ******************************/
+
+
+@media screen and (min-width: 1440px) and (min-height: 768px) {
+    .pre1 {
+        font-size: 14vw;
+    }
+
+    .nav--div .menu {
+        top: 0;
+        left: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 1300px) {
+    .pre1 {
+        padding-top: 70px;
+        font-size: 180px;
+
+    }
+
+    .nav--div .menu {
+        top: 0;
+        left: 2vw;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1096px) {
+    .nav--div .menu {
+        top: 0;
+        left: 3vw;
+    }
+
+    .pre1 {
+        font-size: 150px;
+
+    }
+
+    .medium--box article h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro article h1 {
+        font-size: 40px;
+    }
+
+    .intro article p {
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        font-size: 14px;
+    }
+
+    /***************** BIG NAV TEXR **************/
+    .big--navText h1 {
+        text-indent: 30px;
+        font-size: 80px;
+    }
+
+
+}
+
+@media screen and (max-width: 1036px) {
+    .wrapper--arrow {
+        width: 25%;
+    }
+
+    .big--navText {
+        padding-top: 18vh;
+    }
+
+    .small--images ul .list {
+        width: 250px;
+    }
+
+    .img--cover {
+        width: 100%;
+        height: 200px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) and (min-height: 1366px) {
+    .contents {
+        height: 40%;
+    }
+
+    .counters {
+        top: 4vh;
+    }
+
+    .number {
+        top: 20vh;
+    }
+
+    .big--navText {
+        top: 120px;
+        height: 80%;
+        padding-top: 148px;
+    }
+
+}
+
+@media screen and (max-width: 964px) {
+    .nav--div .menu {
+        top: 0;
+        left: 4vw;
+    }
+
+    .pre1 {
+        padding-top: 40px;
+        font-size: 120px;
+
+    }
+
+    .contents {
+        height: 50%;
+    }
+
+
+
+    .arrows {
+        width: 50%;
+        margin-left: 6vw;
+        min-height: 80px;
+        font-size: 30px;
+    }
+
+    .next,
+    .prev {
+
+        padding-top: 18px;
+        width: 80px;
+        background-color: transparent;
+        box-sizing: border-box;
+
+    }
+
+    .number {
+        top: 8.8vh;
+    }
+
+    .big--navText h1 {
+        font-size: 10vh;
+    }
+
+    .small--images {
+        padding-top: 5vh;
+    }
+
+    .small--images ul .list {
+        width: 200px;
+    }
+
+    .img--cover {
+        width: 100%;
+        height: 150px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 820px) {
+    .nav--div .menu {
+        top: 0;
+        left: 5.5vw;
+    }
+
+    .nav li {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .contents {
+        height: 45%;
+    }
+
+    .number {
+        top: 10.6vh;
+    }
+
+
+    .medium--box article p {
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .pre1 {
+        padding-left: 60px;
+        font-size: 100px;
+    }
+
+
+    .wrapper--arrow {
+
+        width: 30%;
+        height: 30%;
+
+    }
+
+    .wrapper--arrow .prev2,
+    .wrapper--arrow .next2 {
+        border-radius: 80px;
+        text-align: center;
+
+    }
+
+    .big--navText {
+        padding-top: 22vh;
+    }
+
+    .big--navText h1 {
+        font-size: 8vh;
+    }
+
+    .small--images {
+        padding-top: 5vh;
+    }
+
+    .small--images ul .list {
+        width: 200px;
+    }
+
+    .img--cover {
+        width: 100%;
+        height: 150px;
+    }
+
+    .small--images ul .list p {
+        font-size: 12px;
+
+    }
+
+    .homeDetails .article h1 {
+        font-size: 20px;
+    }
+
+    .homeDetails .article p {
+        font-size: 14px;
+
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 800px) and (min-height: 1024px) {
+
+    .nav--div .menu {
+        top: 0;
+        left: 5.8vw;
+    }
+
+    .pre1 {
+        padding-top: 40px;
+        font-size: 90px;
+
+    }
+
+    .number {
+        top: 22vh;
+    }
+
+    .contents {
+        height: 30%;
+    }
+
+    .intro article h1 {
+        font-size: 20px;
+    }
+
+    .big--navText h1 {
+        font-size: 6vh;
+    }
+
+    .small--images {
+        padding-top: 5vh;
+    }
+
+    .small--images ul .list {
+        width: 140px;
+    }
+
+    .img--cover {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+
+@media screen and (max-width: 764px) {
+    .nav--div .menu {
+        top: 0;
+        left: 7vw;
+    }
+
+    .nav li:nth-child(2),
+    .nav li:nth-child(3) {
+        margin-left: 20px;
+    }
+
+    .intro article h1 {
+        font-size: 30px;
+    }
+
+    .wrapper--arrow .prev2,
+    .wrapper--arrow .next2 {
+        border: 0;
+        text-align: center;
+        width: 20%;
+
+    }
+
+    .wrapper--arrow .prev2:hover,
+    .wrapper--arrow .next2:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transform: scale(1.3);
+        border: none;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+
+    }
+
+    .intro article p {
+        text-align: center;
+        width: 70%;
+    }
+
+    .arrows {
+        margin-left: 4vw;
+
+    }
+
+
+
+    .big--navText {
+        padding-top: 28vh;
+    }
+
+    .big--navText h1 {
+        font-size: 6vh;
+    }
+
+    .small--images {
+        padding-top: 8vh;
+    }
+
+    .small--images ul .list {
+        width: 150px;
+    }
+
+    .img--cover {
+        width: 100%;
+        height: 120px;
+    }
+
+    .small--images ul .list p {
+        font-size: 10px;
+
+    }
+
+    .homeDetails .article h1 {
+        margin-top: 2vh;
+        font-size: 14px;
+    }
+
+    .homeDetails .article p {
+        font-size: 12px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 724px) {
+    .arrows {
+        margin-left: 3.6vw;
+
+    }
+}
+
+@media screen and (max-width: 692px) {
+    .contents {
+        height: 38%;
+    }
+
+    .number {
+        top: 14vh;
+    }
+
+    .pre1 {
+        padding-left: 40px;
+        font-size: 80px;
+    }
+
+    .medium--box article h2 {
+        font-size: 16px;
+    }
+
+    .medium--box article p {
+        font-size: 12px;
+        text-align: center;
+
+    }
+
+
+}
+
+@media screen and (max-width: 636px) {
+    .nav--div .menu {
+        top: 0;
+        left: 9vw;
+    }
+
+    .arrow--direction {
+
+        bottom: 10px;
+        height: 120px;
+    }
+
+    .arrow--right {
+        right: 0;
+        width: 60%;
+    }
+
+    .arrows {
+        width: 50%;
+        margin-left: 10vw;
+        min-height: 80px;
+        font-size: 30px;
+    }
+
+    .prev,
+    .next {
+        border: 0;
+        text-align: center;
+
+    }
+
+    .prev:hover,
+    .next:hover {
+        color: rgba(0, 0, 0, 0.8);
+        transform: scale(1.3);
+        border: none;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+
+    }
+
+    .nav li:nth-child(2),
+    .nav li:nth-child(3) {
+        margin-left: 12px;
+    }
+
+
+
+
+    .big--navText h1 {
+        font-size: 4vh;
+    }
+
+
+    .small--images ul .list {
+        width: 100px;
+    }
+
+    .img--cover {
+        width: 100%;
+        height: 80px;
+    }
+
+    .small--images ul .list p {
+        font-size: 10px;
+
+    }
+
+    .homeDetails .article h1 {
+        margin-top: 2vh;
+        font-size: 14px;
+    }
+
+    .homeDetails .article p {
+        font-size: 12px;
+
+    }
+
+}
+
+@media screen and (max-width: 544px) {
+
+    .nav--div .menu {
+        top: 0;
+        left: 11vw;
+    }
+
+    .small--box {
+        width: 15%;
+    }
+
+    .medium--box {
+        position: relative;
+        width: 35%;
+    }
+
+    #Layer_1 {
+        padding-left: 3vw;
+        width: 26vw;
+    }
+
+    .nav li {
+        margin-top: 0.4vh;
+        margin-left: -15px;
+    }
+
+    .medium--box article h2 {
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .medium--box article p {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .contents {
+        height: 30vh;
+    }
+
+    .number {
+        top: 18vh;
+    }
+
+    .pre1 {
+        padding-left: 30px;
+        font-size: 80px;
+    }
+
+    .pre1:nth-child(2) {
+        padding-left: 20px;
+    }
+
+    .arrows {
+        margin-left: 11vw;
+
+    }
+
+    .prev,
+    .next {
+        font-size: 18px;
+        text-align: left;
+        width: 40px;
+
+    }
+
+    .intro article h1 {
+        font-size: 20px;
+    }
+
+    .intro article p {
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+    }
+
+
+
+    .big--navText h1 {
+        text-indent: 10px;
+    }
+
+
+    .small--images ul .list {
+        width: 100px;
+    }
+
+    .small--images ul .list p {
+        font-size: 8px;
+
+    }
+
+    .homeDetails .article h1 {
+        margin-top: 2vh;
+        font-size: 12px;
+    }
+
+    .homeDetails .article p {
+        font-size: 8px;
+
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav--div .menu {
+        top: 0;
+        left: 13vw;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .nav li {
+        margin-top: 1vh;
+        margin-left: -16px;
+        font-size: 10px;
+    }
+
+    .pre1 {
+        font-size: 60px;
+    }
+
+    .prev,
+    .next {
+        font-size: 16px;
+        margin-left: 4px;
+        width: 30px;
+
+    }
+
+
+    .small--images {
+        padding-top: 10vh;
+    }
+
+    .big--navText h1 {
+        text-indent: 0;
+    }
+
+    .small--images ul .list {
+        width: 80px;
+    }
+
+    .img--cover {
+        height: 60px;
+    }
+
+    .small--images ul .list p {
+        font-size: 8px;
+
+    }
+
+    .homeDetails .article h1 {
+        margin-top: 2vh;
+        font-size: 12px;
+    }
+
+    .homeDetails .article p {
+        font-size: 8px;
+
+    }
+     .wrapper--arrow .prev2,
+    .wrapper--arrow .next2 {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 382px) {
+    .nav--div .menu {
+        margin-left: 30px;
+        top: 0;
+        left: 12vw;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        margin: 5px 0;
+        transition: 0.4s;
+
+    }
+
+    .bar2 {
+        width: 20px;
+    }
+
+    .bar3 {
+        width: 18px;
+    }
+
+
+    /* menu change. Class toggling; */
+    .change .bar1,
+    .change .bar2,
+    .change .bar3 {
+        width: 25px;
+        background: #f6a90a;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-10px, 8px);
+        transform: rotate(-45deg) translate(-10px, 8px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-2px, -1px);
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+
+
+    .contents {
+        top: 45%;
+        height: 25vh;
+    }
+
+    .pre1 {
+        padding-left: 30px;
+        font-size: 50px;
+    }
+
+    .number {
+        top: 18vh;
+    }
+
+    .number h1 {
+        font-size: 14px;
+    }
+
+    .nav--div .menu {
+        top: 0;
+        left: 42px;
+
+    }
+    .nav li {
+        margin-top: 1.4vh;
+        margin-left: -16px;
+        font-size: 8px;
+    }
+
+    .homeDetails .article h1 {
+        margin-top: 5vh;
+        font-size: 12px;
+    }
+
+    .homeDetails .article p {
+        font-size: 8px;
+
+    }
+
+    .intro article h1 {
+        font-size: 18px;
+    }
+
+    .intro article p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+
+
+    .small--images {
+        padding-top: 10vh;
+    }
+
+    .big--navText {
+        padding-top: 30vh;
+    }
+
+    .big--navText h1 {
+        margin-left: -5vw;
+        font-size: 24px;
+    }
+
+    .arrows {
+        margin-left: 0;
+
+    }
+
+    .prev,
+    .next {
+        font-size: 14px;
+        text-align: left;
+        width: 10px;
+
+    }
+
+    .wrapper--arrow .prev2,
+    .wrapper--arrow .next2 {
+        font-size: 14px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .nav li {
+        margin-top: 1.4vh;
+        margin-left: -16px;
+        font-size: 8px;
+    }
+
+
+    .medium--box article p {
+        font-size: 8px;
+
+    }
+
+    .intro article h1 {
+        font-size: 16px;
+    }
+
+    .intro article p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 320px) and (max-height:568px) {
+    .number {
+        top: 14vh;
+    }
+
+    .number h1 {
+        font-size: 18px;
+    }
+
+    .medium--box article h2 {
+        font-size: 12px;
+    }
+
+}
+
+/*************************FINISHED*************/
